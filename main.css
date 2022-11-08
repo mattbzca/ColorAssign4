@@ -1,0 +1,51 @@
+p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-left: 2.5em;
+}
+#nav_menu {
+    overflow: hidden;
+    background-color: darkslategray;
+}
+#nav_menu a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#nav_menu ul {
+    list-style-type: none;
+}
+#nav_menu ul li a.current {
+    background-color: purple;
+}
+h1, h2 {
+    font-family: 'IBM Plex Mono', monospace;
+}
+h1 {
+    margin-left: 1.3em;
+}
+h2 {
+    margin-left: 1.7em;
+}
+header {
+    background-color:maroon;;
+    padding: 15px;
+}
+header h1 {
+    color: white;
+}
+main {
+float: right;
+}
+footer {
+    clear: both;
+    position: fixed;
+    bottom: 1em;
+    left: 1.3em;
+}
+#copyright {
+    font-size: 80%;
+    margin-left: 1em;
+}
